@@ -26,7 +26,7 @@ import TwoByTwo from '../examples/TwoByTwo';
 import IndoorBuilding from '../examples/IndoorBuilding';
 import QueryAtPoint from '../examples/QueryAtPoint';
 import QueryWithRect from '../examples/QueryWithRect';
-import ShapeSourceIcon from '../examples/ShapeSourceIcon';
+import ShapeSourceIcon from '../examples/ShapeSourceIconFunc';
 import CustomVectorSource from '../examples/CustomVectorSource';
 import ShowPointAnnotation from '../examples/Annotations/ShowPointAnnotation';
 import AnimatedLine from '../examples/AnimatedLine';
@@ -134,10 +134,10 @@ const Examples = [
     new ExampleItem('Set Displacement', SetDisplacement),
     new ExampleItem('Set User Location Render Mode', SetUserLocationRenderMode),
   ]),
-  new ExampleGroup('Symbol/CircleLayer', [
+  new ExampleGroup('Symbol/CircleLayer (x)', [
     new ExampleItem('Custom Icon', CustomIcon),
     new ExampleItem('Clustering Earthquakes', EarthQuakes),
-    new ExampleItem('Shape Source From Icon', ShapeSourceIcon),
+    new ExampleItem('Shape Source From Icon (x)', ShapeSourceIcon),
     new ExampleItem('Data Driven Circle Colors', DataDrivenCircleColors),
     new ExampleItem('Shape Source From Icon.TS', ShapeSourceTS),
   ]),
