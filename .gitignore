@@ -121,3 +121,5 @@ coverage
 *.iml
 
 react-native-mapbox-gl-maps.tgz
+/example/env.json
+/example/accesstoken
